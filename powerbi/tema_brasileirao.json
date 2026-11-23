@@ -1,0 +1,32 @@
+{
+  "name": "Brasileirao Dark",
+  "dataColors": ["#22C55E", "#FACC15", "#38BDF8", "#F472B6", "#A78BFA", "#FB923C", "#2DD4BF", "#F87171"],
+  "background": "#111A2E",
+  "foreground": "#E5E7EB",
+  "tableAccent": "#22C55E",
+  "good": "#22C55E",
+  "neutral": "#FACC15",
+  "bad": "#F87171",
+  "textClasses": {
+    "callout": { "color": "#F8FAFC", "fontSize": 26 },
+    "title":   { "color": "#E5E7EB", "fontSize": 12 },
+    "header":  { "color": "#E5E7EB", "fontSize": 12 },
+    "label":   { "color": "#CBD5E1", "fontSize": 10 }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "title": [{ "fontColor": { "solid": { "color": "#E5E7EB" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0A1020" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#0A1020" } } }]
+      }
+    }
+  }
+}
